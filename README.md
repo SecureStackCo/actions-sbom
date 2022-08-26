@@ -4,7 +4,7 @@
 Software bill of materials (SBOM) are supposed to provide a list of ingredients that have gone into an application.  Having an SBOM allows you to know what you are getting and whether any of the ingredients have vulnerabilities.  This is why they are so important and why the US government has mandated that companies use them.  
 
 ### An application is more than just the third party libraries you are using
-Its the source code, of course, but also the cloud resources, vendor dependencies and partner APIs you call.  If your application requires something to run, then it should be in the ABOM, right?  And that's why the SecureStack ABOM is created holistically from all the important components of your application.  This includes source code, third-party libraries and AWS cloud resources.  In addition, this ABOM will include any vulnerabilities from your source code and cloud stack.
+Its the source code, of course, but also the cloud resources, vendor dependencies and partner APIs you call.  If your application requires something to run, then it should be in the SBOM, right?  And that's why the SecureStack SBOM is created holistically from all the important components of your application.  This includes source code, third-party libraries and AWS cloud resources.  In addition, this SBOM will include any vulnerabilities from your source code and cloud stack.
 
 ```
 name: Example Workflow Using SecureStack SBOM Action
