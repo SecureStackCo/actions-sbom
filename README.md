@@ -7,15 +7,15 @@ Software bill of materials (SBOM) are supposed to provide a list of ingredients 
 Its the source code, of course, but also the cloud resources, vendor dependencies and partner APIs you call.  If your application requires something to run, then it should be in the ABOM, right?  And that's why the SecureStack ABOM is created holistically from all the important components of your application.  This includes source code, third-party libraries and AWS cloud resources.  In addition, this ABOM will include any vulnerabilities from your source code and cloud stack.
 
 ```
-name: Example Workflow Using SecureStack ABOM Action
+name: Example Workflow Using SecureStack SBOM Action
 on: push
 jobs:
   security:
     runs-on: ubuntu-latest
     steps:
-      - name: Create ABOM
+      - name: Create SBOM
         id: sbom
-        uses: SecureStackCo/actions-sbom@v0.1.3
+        uses: SecureStackCo/actions-sbom@v0.2.0
         with:
           securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
           securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
