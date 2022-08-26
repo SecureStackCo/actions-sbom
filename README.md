@@ -37,8 +37,8 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 
 1. Log in to [SecureStack](https://app.securestack.com).
 2. Open the application you wish to analyse.
-3. Copy the value of the application id on the View Application screen.
-4. Paste into the value of the `securestack_app_id` action input for the step using the SecureStack action in your workflow.
+3. In the browser URL bar you will see something like this: https://app.securestack.com/settings/applications/269aa3a5-9be8-1a23-1234-123456abcdef.  Copy the last part of that as the Application ID.  (ex: 269aa3a5-9be8-1a23-1234-123456abcdef)
+3. Now go back to the GitHub UI and paste into the value of the `securestack_app_id` action input for the step using the SecureStack action in your workflow.
 
 ## What types of components will this BoM include?
 1. All your software components including third-party libraries and frameworks
