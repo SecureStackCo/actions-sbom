@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Create SBOM
         id: sbom
-        uses: SecureStackCo/actions-sbom@v0.2.0
+        uses: SecureStackCo/actions-sbom@v0.1.1
         with:
           securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
           securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
@@ -27,10 +27,11 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 
 ## Create your SecureStack API Key and save as GitHub Secret
 
-1. Log in to [SecureStack](https://app.securestack.com) and go to the Profile -> GENERATE KEY screen.
-2. Generate an API key and copy the value.
-3. Go to Settings for your GitHub repository and click on Secrets at the bottom left.
-4. Create a new secret named SECURESTACK_API_KEY_SECRET and paste the value from step 2 into the field.
+1. Log in to [SecureStack](https://app.securestack.com) with your GitHub credentials.
+2. Go to Settings in the lower left corner, and then select the 6th tab: API.
+3. Generate a new API key and copy the value.
+4. Now back in GitHub, go to Settings for your GitHub repository and click on Secrets at the bottom left.
+5. Create a new secret named SECURESTACK_API_KEY and paste the value from step 2 into the field.
 
 ## Retreiving your SecureStack Application ID
 
