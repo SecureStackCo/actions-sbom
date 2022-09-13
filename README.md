@@ -28,18 +28,16 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 ## Create your SecureStack API Key and save as GitHub Secret
 
 1. Log in to [SecureStack](https://app.securestack.com) with your GitHub credentials.
-2. Go to Settings in the lower left corner, and then select the 6th tab: API.
-3. Generate a new API key and copy the value.
-4. Now back in GitHub, go to Settings for your GitHub repository and click on Secrets at the bottom left.
-5. Create a new secret named SECURESTACK_API_KEY and paste the value from step 2 into the field.
+2. Go to Settings in the lower left corner, and then select the 6th tab: API.![Create API key](./images/securestack-create-apikey.png)
+3. Generate a new API key and copy the value.![Copy API key](./images/securestack-copy-apikey.png)
+4. Now back in GitHub, go to Settings for your GitHub repository and click on Secrets, and then Actions at the bottom left.
+5. Create a new secret named SECURESTACK_API_KEY and paste the value from step 2 into the field and click "Add secret".![Create GitHub Secret for API key](./images/securestack-github-apikey-secret.png)
 
 ## Retreiving your SecureStack Application ID
 
 1. Log in to [SecureStack](https://app.securestack.com).
-2. Open the application you wish to analyse.
-3. In the browser URL bar you will see something like this: ```https://app.securestack.com/settings/applications/269aa3a5-9be8-1a23-1234-123456abcdef```
-4. Copy the last part of that as the Application ID.  (ex: 269aa3a5-9be8-1a23-1234-123456abcdef)
-5. Now go back to the GitHub UI and paste into the value of the `securestack_app_id` action input for the step using the SecureStack action in your workflow.
+2. In the application drop down at the top left choose the application you want to use and click on "Copy Application ID" ![Copy Application ID](./images/securestack-copy-appid.png)
+3. Create a new secret named SECURESTACK_APP_ID and paste the value from step 2 into the field and click "Add secret".![Create GitHub Secret for app_id](./images/securestack-github-appid-secret.png)
 
 ## What types of components will this BoM include?
 1. All your software components including third-party libraries and frameworks
