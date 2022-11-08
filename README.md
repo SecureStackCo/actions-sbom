@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Create SBOM
         id: sbom
-        uses: SecureStackCo/actions-sbom@v0.1.1
+        uses: SecureStackCo/actions-sbom@v0.1.2
         with:
           securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
           securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
