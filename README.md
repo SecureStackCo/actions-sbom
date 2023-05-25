@@ -42,5 +42,12 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 ## What types of components will this BoM include?
 1. All your software components including third-party libraries and frameworks
 2. The AWS native resources that this application is actually using (think Ec2, S3, RDS, Cloudfront, ELB, CloudTrail, CloudWatch, Config, GuardDuty)
+2. Any vulnerabilities in the components or services
+
+## How can I see the output of the SBOM?
+1. You can view the SBOM output right in the GitHub Action ![workflow output](./images/securestack-sbom-output-log.png)
+2. You can interact with the SBOM in the SecureStack SaaS ![platform](./images/securestack-sbom-saas-view.png)
+3. You can download the SBOM file in the SecureStack SaaS ![platform](./images/securestack-sbom-saas-download.png)
+4. You can download the SBOM file with our [bloodhound-cli](https://app.securestack.com/download-cli)
 
 Made with 💜  by [SecureStack](https://securestack.com)
