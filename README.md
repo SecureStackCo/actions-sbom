@@ -52,7 +52,7 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 
 
 ## What others are saying about SecureStack SBOMs
-Check our our SBOM [Scorecard](https://sbom-scorecard.dev/score/70749f6b6537af428c74d7daebafd444a18a478c)
+Check our our [SBOM Scorecard](https://sbom-scorecard.dev/score/70749f6b6537af428c74d7daebafd444a18a478c)
 
 
 Made with 💜  by [SecureStack](https://securestack.com)
