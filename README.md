@@ -47,8 +47,7 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 ## How can I see the output of the SBOM?
 1. You can view the SBOM output right in the GitHub Action ![workflow output](./images/securestack-sbom-output-log.png)
 2. You can download the SBOM file with our [bloodhound-cli: ](https://app.securestack.com/download-cli)
-
-``` bloodhound-cli SBOM -d <sbom_id> -a <app_id> --config ~/.bloodhound-cli.prod.2.0.yaml ```
+``` bloodhound-cli SBOM -d <sbom_id> -a <app_id> ```
 
 3. You can interact with the SBOM in the SecureStack SaaS ![platform](./images/securestack-sbom-saas-view.png)
 4. You can download the SBOM file in the SecureStack SaaS ![platform](./images/securestack-sbom-saas-download.png)
