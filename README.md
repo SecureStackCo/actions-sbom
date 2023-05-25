@@ -45,7 +45,7 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 2. Any vulnerabilities in the components or services
 
 ## How can I see the output of the SBOM?
-1. You can view the SBOM output right in the GitHub Action ![workflow output](./images/securestack-sbom-output-log.png)
+1. You can view the SBOM output right in the GitHub Action workflow output![workflow output](./images/securestack-sbom-output-log.png)
 2. You can download the SBOM file with our [bloodhound-cli : ](https://app.securestack.com/download-cli)
 ``` bloodhound-cli SBOM -d <sbom_id> -a <app_id> ```
 
