@@ -50,4 +50,8 @@ NOTE - to understand possible values for the action input `flags`, run the Secur
 3. You can interact with the SBOM in the SecureStack SaaS ![platform](./images/securestack-sbom-saas-view.png)
 4. You can download the SBOM file in the SecureStack SaaS ![platform](./images/securestack-sbom-saas-download.png)
 
+## What others are saying about our SBOMs
+Check our our SBOM [Scorecard](https://sbom-scorecard.dev/score/70749f6b6537af428c74d7daebafd444a18a478c)
+
+
 Made with 💜  by [SecureStack](https://securestack.com)
